@@ -1,0 +1,7 @@
+- content_for :head do
+  %link{ :rel => 'stylesheet', :href => '/assets/css/snippet.css', :type => 'text/css' }
+#content
+  %h4
+    %a{ :href => "/" } Cloud Blog
+  %article
+    = @content
