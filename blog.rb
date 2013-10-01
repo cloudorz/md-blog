@@ -33,7 +33,7 @@ class Blog < Sinatra::Base
         haml :index
     end
 
-    get '/*' do |snippet|
+    get '/:s' do |snippet|
         @content = markdown(snippet.to_sym)
         haml :snippet
     end
