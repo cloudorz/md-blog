@@ -1,4 +1,3 @@
 require './blog'
 
-
 run Blog
