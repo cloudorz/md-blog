@@ -2,10 +2,8 @@ body
   font-family: Helvetica, arial, sans-serif
   font-size: 14px
   line-height: 1.6
-  padding-top: 10px
-  padding-bottom: 10px
-  background-color: white
-  padding: 30px
+  background-color: #eee !important
+  padding-bottom: 30px
   > *
     &:first-child
       margin-top: 0 !important
@@ -13,7 +11,10 @@ body
       margin-bottom: 0 !important
 
 a
-  color: #4183C4
+  color: #111
+  text-decoration: none
+  &:hover
+    color: #1982d1
   &.absent
     color: #cc0000
   &.anchor
@@ -306,3 +307,57 @@ sup
   pre
     page-break-inside: avoid
     word-wrap: break-word
+
+#content
+  width: 750px !important
+  min-height: 800px
+  margin: 0px 4px 4px 150px !important
+  background: #fafafa !important
+  padding: 40px 40px 80px 40px !important
+  float: right !important
+  box-shadow: 0px 2px 6px rgba(100, 100, 100, 0.3)
+  border-radius: 0px 0px 8px 8px !important
+  position: relative
+  z-index: 2
+
+.site-header
+  position: relative
+  z-index: 9999
+  border-bottom: 1px solid #bbb
+
+hgroup
+  height: 100px
+
+hgroup h1
+  display: block
+  clear: both
+  border: 0
+  margin: 0 !important
+  outline: 0
+  line-height: 0.75
+  padding-bottom: 0px
+  vertical-align: baseline
+
+hgroup h2
+  clear: both
+  color: #7a7a7a
+  font-size: 14px
+  border: 0
+  margin: 0 !important
+  outline: 0
+  padding: 0
+  line-height: 1.625
+  vertical-align: baseline
+
+footer
+  border-top: 1px solid #ddd
+  width: 750px
+  height: 80px
+  clear: both
+  display: block
+  position: absolute
+  bottom: 0
+
+footer div
+  text-align: center
+  padding-top: 30px

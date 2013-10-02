@@ -5,7 +5,19 @@
       ios road by cloud
     %meta{ :charset => 'utf-8' }
     %link{ :href => '/images/favicon.png', :rel => 'icon', :type => 'image/png' }
-    %link{ :rel => 'stylesheet', :href => '/css/markdown.css', :type => 'text/css' }
+    %link{ :rel => 'stylesheet', :href => '/css/common.css', :type => 'text/css' }
     = yield_content :head
   %body
-    = yield
+    #content
+      %header{ :class => 'site-header', :role => 'banner'}
+        %hgroup
+          %h1 
+            %span
+              %a{ :href => '/', :title => 'Cloud', :rel => 'home'} Code Pattern
+          %h2 coding
+      #main
+        = yield
+      %footer{ :role => 'contentinfo'}
+        %div
+          Power by 
+          %a{ :href => '/about-me', :title => 'cloud'} @cloud
