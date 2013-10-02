@@ -1,4 +1,4 @@
 ### Cloud  
  **QQ**: `34214649`  
- **email**: `cloudcry@gmail.com`
+ **Email**: `cloudcry@gmail.com`
 
