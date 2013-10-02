@@ -33,21 +33,29 @@ class Blog < Sinatra::Base
         haml :index
     end
 
-    get '/:s' do |snippet|
-        @content = markdown(snippet.to_sym)
-        haml :snippet
+    get %r{^/(\w[\w|-]+\w)$} do |snippet|
+        begin
+            @content = markdown(snippet.to_sym)
+            haml :snippet
+        rescue Errno::ENOENT
+            not_found
+        end
     end
 
     get '/css/*.css' do |file_name|
-        sass file_name.to_sym
+        begin
+            sass file_name.to_sym
+        rescue Errno::ENOENT
+            not_found
+        end
     end
 
     # error handlers
     not_found do
-        'This is nowhere to be found'
+        '404'
     end
 
     error do
-        'Sorry there was nasty error - '+ env['sinatra.error'].name
+        'Oops~~!'
     end
 end
