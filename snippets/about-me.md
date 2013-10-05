@@ -5,7 +5,7 @@
 
 ### 工作：
 - 2012.12~至今  
-  就职于[**上海英语流利说**](http://liulishuo.com/)，开发维护[英语流利说](http://goo.gl/JzBGjD)iOS端。  
+  就职于[上海流利说信息技术有限公司](http://liulishuo.com/)，开发维护[英语流利说](http://goo.gl/JzBGjD)iOS端。  
 - 2012.9以前  
   毕业->工作->创业->游荡->…
   
