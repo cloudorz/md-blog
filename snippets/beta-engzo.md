@@ -2,7 +2,7 @@
 
 ### 安装
 1.确认你用iPhone系统自带的Safari打开了此页面。  
-2.直接点击 [**流利说公测版**](itms-services://?action=download-manifest&url=http://llss.qiniudn.com/engzo2_1.4_beta_3.plist) 安装  
+2.直接点击 [**流利说公测版**](itms-services://?action=download-manifest&url=http://llss.qiniudn.com/engzo2_beta_1.plist) 安装  
 
 ### 测试的内容
 * 点“赞”功能:
