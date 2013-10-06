@@ -7,10 +7,7 @@
 需要亲们做以下的工作
 
 ### 安装：
-1. 如果使用iphone打开本邮件，请直接点击 [流利说内测版](itms-services://?action=download-manifest&url=http://llss.qiniudn.com/engzo2_bugfix_test.plist) 下载
-2. 如果不是通过iphone打开邮件，请复制下面引号之间的内容：  
-    "itms-services://?action=download-manifest&url=http://llss.qiniudn.com/engzo2_bugfix_test.plist"
-    然后粘贴到iphone的safari的地址栏中并打开
+请直接点击 [流利说内测版](itms-services://?action=download-manifest&url=http://llss.qiniudn.com/engzo2_bugfix_test.plist)安装
 
 ### 使用：  
 打开“流利说beta”进行使用。(注意：你会发现有两个流利说的应用，你需要打开的是应用名为“流利说beta”这个)
