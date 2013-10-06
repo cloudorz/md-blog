@@ -14,6 +14,6 @@
 
 ### 联系：
 如果在使用“流利说beta”中出现问题，可以通过
-QQ: `34214649`
-email：`cloud@liulishuo.com`
+QQ: `34214649`  
+email：`cloud@liulishuo.com`  
 来反馈你遇到的问题。
