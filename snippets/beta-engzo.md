@@ -1,8 +1,15 @@
 ##英语流利说1.4版本公测
 
+<!--
+### 安装前准备
+1. 打开流利说正式版。  
+2. 划到设置页面登出。  
+3. 删除流利说正式版。  
+-->
+
 ### 安装
 1.确认你用iPhone系统自带的Safari打开了此页面。  
-2.直接点击 [**流利说公测版beta4**](itms-services://?action=download-manifest&url=http://llss.qiniudn.com/engzo2_beta_5.plist) 安装  
+2.直接点击 [**流利说公测版beta4**](itms-services://?action=download-manifest&url=http://llss.qiniudn.com/engzo2_beta_6.plist) 安装  
 
 ### 测试的内容
 * 点“赞”功能:
