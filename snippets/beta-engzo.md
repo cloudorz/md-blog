@@ -1,4 +1,10 @@
-##英语流利说1.4版本公测
+##英语流利说正式测试版
+
+### 新功能缩影
+![个人中心](http://llss.qiniudn.com/engzo2_beta_snap_1.png)
+![单词生词本](http://llss.qiniudn.com/engzo2_beta_snap_2.png)
+![流利吧论坛](http://llss.qiniudn.com/engzo2_beta_snap_3.png)
+![点赞功能](http://llss.qiniudn.com/engzo2_beta_snap_4.png)
 
 <!--
 ### 安装前准备
