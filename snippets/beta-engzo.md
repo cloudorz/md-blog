@@ -1,6 +1,6 @@
 ##英语流利说正式测试版
 
-## 安装直通车 [流利说正式测试版](itms-services://?action=download-manifest&url=http://llss.qiniudn.com/engzo2_beta_6.plist)  
+# 安装直通车 [流利说正式测试版](itms-services://?action=download-manifest&url=http://llss.qiniudn.com/engzo2_beta_6.plist)  
 
 ### 新功能缩影
 ![个人中心](http://llss.qiniudn.com/engzo2_beta_snap_1.png)
