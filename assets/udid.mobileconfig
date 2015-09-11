@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>PayloadContent</key>
+        <dict>
+            <key>URL</key>
+            <string>http://192.168.11.32:4567/udid</string>
+            <key>DeviceAttributes</key>
+            <array>
+                <string>UDID</string>
+                <string>IMEI</string>
+                <string>ICCID</string>
+                <string>VERSION</string>
+                <string>PRODUCT</string>
+                <string>DEVICE_NAME</string>
+            </array>
+            <key>Challenge</key>
+            <data>base64-encoded</data>
+        </dict>
+        <key>PayloadOrganization</key>
+        <string>liulishuo.com</string>
+        <key>PayloadDisplayName</key>
+        <string>Profile Service</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadUUID</key>
+        <string>D31E524F-D9D0-40C2-AE46-8C00236D5430</string>
+        <key>PayloadIdentifier</key>
+        <string>com.liulishuo.profile-service</string>
+        <key>PayloadDescription</key>
+        <string>This temporary profile will be used to find and display your current device's UDID.</string>
+        <key>PayloadType</key>
+        <string>Profile Service</string>
+    </dict>
+</plist>

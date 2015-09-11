@@ -50,6 +50,21 @@ class Blog < Sinatra::Base
         end
     end
 
+    # iOS UDID Retrive
+    before do
+        if request.path_info == '/udid'
+            request.body.rewind
+            raw_data = request.body.read.encode('UTF-16', 'UTF-8', :invalid=>:replace, :replace=>"").encode('UTF-8')
+            contained_udid = raw_data.split('<key>UDID</key>')[1].split('<key>VERSION</key>')[0]
+            udid = />(.*)</.match(contained_udid)[1]
+            params['udid'] = udid unless udid == nil
+        end
+    end
+
+    post '/udid' do
+        redirect "mailto:cloud@liulishuo.com?subject=iOS UDID &body=Hi, Cloud %0d%0aUDID: #{params['udid']}, %0d%0aName: Enter your name, Please", 301
+    end
+
     # error handlers
     not_found do
         '404'
