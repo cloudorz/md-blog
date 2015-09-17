@@ -1,3 +1,3 @@
-require './blog'
+require './blog.rb'
 
 run Blog
